@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vynix — Point it. Capture it. Ship it.</title>
+    <meta
+      name="description"
+      content="Vynix turns visual website feedback into structured context AI coding agents can act on — DOM, console, and network included."
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- A plain, build-free static copy of the Vynix marketing site. This is the sandbox
+         the public Vynix demo points its Copilot coding agent at: feedback left on the demo
+         turns into GitHub issues here, and Copilot edits these files to resolve them. -->
+    <header class="nav">
+      <a class="brand" href="#top" aria-label="Vynix home">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span class="brand-name">Vynix</span>
+      </a>
+      <nav class="nav-links">
+        <a href="#features">Features</a>
+        <a href="#how">How it works</a>
+        <a href="#pricing">Pricing</a>
+        <a class="nav-cta" href="#get-started">Get started</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <p class="eyebrow">Visual feedback for AI coding agents</p>
+        <h1 class="hero-title">
+          Point it. Capture it. <span class="gradient">Ship it.</span>
+        </h1>
+        <p class="hero-subtitle">
+          Click any element on your live site, leave a note, and Vynix captures the exact
+          selector, DOM, console errors and network context your AI agent needs to fix it.
+        </p>
+        <div class="hero-actions" id="get-started">
+          <a class="btn btn-primary" href="#get-started">Get started free</a>
+          <a class="btn btn-secondary" href="#how">How to install</a>
+        </div>
+      </section>
+
+      <section id="features" class="section">
+        <h2 class="section-title">Everything your agent needs</h2>
+        <div class="grid">
+          <article class="card">
+            <h3>Point at anything</h3>
+            <p>Hover to highlight, click to pin. Vynix records the CSS selector, XPath and DOM.</p>
+          </article>
+          <article class="card">
+            <h3>Capture the context</h3>
+            <p>Console errors, failed network requests and computed styles ride along with every note.</p>
+          </article>
+          <article class="card">
+            <h3>Hand off to AI</h3>
+            <p>One click turns a note into a GitHub issue — and the Copilot agent opens the pull request.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="how" class="section section-alt">
+        <h2 class="section-title">Three moves</h2>
+        <ol class="steps">
+          <li><span class="step-num">1</span> Drop the one-line widget snippet on your site.</li>
+          <li><span class="step-num">2</span> Point at an element or region and type a note.</li>
+          <li><span class="step-num">3</span> Triage in the dashboard and ship the fix with your agent.</li>
+        </ol>
+      </section>
+
+      <section id="pricing" class="section">
+        <h2 class="section-title">Free while we grow</h2>
+        <p class="pricing-note">
+          The core annotation flow is free. Team and automation features arrive over time.
+        </p>
+        <a class="btn btn-primary" href="#get-started">Create your free account</a>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p class="copyright">
+        <span class="brand-mark small" aria-hidden="true"></span>
+        © <span id="year">2026</span> Vynix. All rights reserved.
+      </p>
+      <nav class="footer-links">
+        <a href="#">Privacy</a>
+        <a href="#">Terms</a>
+      </nav>
+    </footer>
+
+    <script>
+      document.getElementById('year').textContent = String(new Date().getFullYear());
+    </script>
+  </body>
+</html>
