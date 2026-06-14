@@ -1,0 +1,15 @@
+header .hero {
+  background: #111827;
+  padding: 4rem 1.5rem;
+}
+
+header .hero a.cta {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.75rem 1.25rem;
+  border-radius: 0.5rem;
+  background: #22c55e;
+  color: #052e16;
+  font-weight: 600;
+  text-decoration: none;
+}
